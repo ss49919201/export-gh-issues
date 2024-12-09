@@ -1,0 +1,7 @@
+{
+  "name": "export-gh-issues",
+  "version": "0.0.1",
+  "description": "GitHub Issues Exporter.",
+  "scripts": {},
+  "license": "MIT"
+}
