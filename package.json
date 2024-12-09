@@ -2,6 +2,7 @@
   "name": "export-gh-issues",
   "version": "0.0.1",
   "description": "GitHub Issues Exporter.",
+  "type": "module",
   "scripts": {},
   "license": "MIT",
   "devDependencies": {
