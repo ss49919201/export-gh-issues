@@ -1,0 +1,16 @@
+{
+  "name": "export-gh-issues",
+  "version": "1.0.0",
+  "description": "Export GitHub issues using GitHub API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "export": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "octokit": "^3.1.2",
+    "dotenv": "^16.4.1"
+  }
+}
