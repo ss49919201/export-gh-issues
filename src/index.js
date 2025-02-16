@@ -30,11 +30,11 @@ const getIssues = async () => {
       }
     );
     return comments.reduce((prev, cur) => {
-      const sameIssue = prev.find(
+      const sameIssueIndex = prev.findIndex(
         ({ issue_url }) => issue_url === cur.issue_url
       );
-      if (sameIssue) {
-        sameIssue.comments.push(cur.body);
+      if (sameIssueIndex >= 0) {
+        prev[sameIssueIndex].comments.push(cur.body);
       } else {
         prev.push({
           issue_url: cur.issue_url,
